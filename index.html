@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial scale=1.0">
+   
+    <title>Trivia</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+ <body>
+    <header>
+        <h1>TRIVIA</h1>
+        <p>Teste seu conhecimento</p>
+    </header>
+
+    
+    <div class="container">
+        <section id="p0"> 
+        <h3>1 - Qual dessas é uma linguagem de programação?</h3>
+        <label>
+        <input type="radio" value="1" name="p0"> HTML
+        </label>
+
+        <label>
+            <input type="radio" value="2" name="p0" > JavaScript
+            </label>
+
+            <label>
+                <input type="radio" value="3" name="p0"> CSS
+                </label>
+                </section>
+       <section id="p1"> 
+       <h3>2 - Qual o tempo de duração do bootcamp?</h3>
+       <label>
+        <input type="radio" value="1" name="p1" > 10 meses
+       </label>
+            <label>
+            <input type="radio" value="2" name="p1" > 2 meses
+            </label>
+            <label>
+            <input type="radio" value="3" name="p1" > 6 meses
+            </label>
+            </section>
+        <button onclick="corrigir()"> CORRIGIR</button>
+        <h2>Acertos: <span id="resultado"></span></h2>
+    </div>
+    <script src="script.js"></script>
+ </body>
+</html>
+
+
+ 
+ 
